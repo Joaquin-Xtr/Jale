@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<?php
+include("../Diseños/header.html");
+?>
+
+<html lang="es-CL">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/main.css">
+
+    <!-- CDN ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!--
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/style.css">
+    -->
+    <title>Bienvenido a J.A.L.E</title>
+</head>
+
+
+<body>
+    <section class="w-75 mx-auto text-center pt-5">
+        <h4 class="p-3 fs-2 border-top border-3">Sección creada para revisar los <span class="text-primary">principales sitios web</span></h4>
+    </section>
+    <br>
+    <br>
+    
+    <section>
+        <div class="container-fluid w-75 mx-auto">
+
+            <div class="card">
+                <div class="card-header ">
+                    Sitios WEB
+                </div>
+                <div class="row p-4">
+
+                    <div class="col-4" style="background-color: #3498db;">
+                        <h1 class="fs-20">Hola mundo!</h1>
+                        <table>
+                            <tbody>
+                                
+                                <tr>
+                                    <td>
+                                        <div class="row">
+    
+                                        </div>
+                                        
+                                        <img width="180px" height="160px" name="Foto" style="margin-top: 20px;" src="data:image/jpg;base64, <?php echo base64_encode($mostrar["foto"]); ?>">
+                                        <h3><? //php echo $mostrar['nombre'] 
+                                            ?> NOMBRE</h3>
+                                        <h3><? //php echo $mostrar['tipo'] 
+                                            ?> DEPORTE</h3>
+                                        <h3><? //php echo $mostrar['descripcion'] 
+                                            ?> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti cumque eaque impedit assumenda, itaque officiis tenetur autem. Doloremque laudantium vel fugit eius iure, qui iusto beatae. Odio tenetur unde blanditiis!</h3>
+                                        <? //php $asd = $mostrar['url']
+                                        ?>
+                                        <a href="<?php echo $asd ?>" class="link1" target="_blank">Visitar Sitio</a>
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-4" style="background-color: red;">
+                        <h1 class="fs-20">Hola mundo!</h1>
+                    </div>
+                    <div class="col-4" style="background-color: yellow;">
+                        <h1 class="fs-20">Hola mundo!</h1>
+                    </div>
+
+
+                    <table class="table align-middle" width="50">
+                        <tbody>
+                            
+                            <tr>
+                                <td>
+                                    <div class="row">
+
+                                    </div>
+                                    
+                                    <img width="180px" height="160px" name="Foto" style="margin-top: 20px;" src="data:image/jpg;base64, <?php echo base64_encode($mostrar["foto"]); ?>">
+                                    <h3><? //php echo $mostrar['nombre'] 
+                                        ?> NOMBRE</h3>
+                                    <h3><? //php echo $mostrar['tipo'] 
+                                        ?> DEPORTE</h3>
+                                    <h3><? //php echo $mostrar['descripcion'] 
+                                        ?> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti cumque eaque impedit assumenda, itaque officiis tenetur autem. Doloremque laudantium vel fugit eius iure, qui iusto beatae. Odio tenetur unde blanditiis!</h3>
+                                    <? //php $asd = $mostrar['url']
+                                    ?>
+                                    <a href="<?php echo $asd ?>" class="link1" target="_blank">Visitar Sitio</a>
+                                </td>
+                                <td>
+
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br>
+
+</body>
